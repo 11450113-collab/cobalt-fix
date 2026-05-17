@@ -4,6 +4,9 @@
     "engines": {
         "pnpm": ">=9"
     },
+    "scripts": {
+        "deploy": "cd web && npx wrangler deploy"
+    },
     "devDependencies": {
         "wrangler": "^4.92.0"
     }
