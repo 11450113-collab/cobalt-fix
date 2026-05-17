@@ -1,0 +1,6 @@
+# Root wrangler config for monorepo - delegates to web/
+# This file exists only to help Wrangler find the correct project
+
+[build]
+# Point to the actual wrangler config
+cwd = "./web"
